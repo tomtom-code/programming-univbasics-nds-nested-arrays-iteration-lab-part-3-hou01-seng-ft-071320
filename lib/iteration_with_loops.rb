@@ -12,8 +12,9 @@ def join_nested_strings(src)
     while element_index < src[row_index].length do
       
       if src[row_index][element_index] == String
-        string_only << src[row_index][element_index]
         binding.pry
+        string_only << src[row_index][element_index]
+        
       end
       
       element_index += 1 
