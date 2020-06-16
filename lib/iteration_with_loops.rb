@@ -21,10 +21,10 @@ def join_nested_strings(src)
     end 
     
     row_index += 1 
-    string_only.join(" ")
+    
     
   end 
 
- 
+ string_only.join(" ")
 end
 
